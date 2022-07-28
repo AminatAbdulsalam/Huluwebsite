@@ -1,0 +1,263 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.home{
+    background-image: url(/images/home.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.logo{
+    height: 25px;
+    width: 70px;
+    margin-top: 20px;
+}
+.home-content{
+    padding-top: 100px;
+}
+.p1{
+    color: #36CA94;
+    font-weight: bolder;
+    text-align: center;
+}
+.content-btn{
+    background-color: #36CA94;
+    border: none;
+    font-weight: bolder;
+    width: 700px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 300px;
+}
+.content-graphics{
+    width: 800px;
+    height: 200px;
+    margin-left: 250px;
+}
+.p2{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.p3, .p8{
+    color: rgb(172, 169, 169);
+    font-size: 10px;
+    text-align: center;
+    margin-top: 5px;
+    font-weight: bolder;
+}
+.p4{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.p3:hover, .p8:hover{
+    color: white;
+}
+.p4:hover{
+    color: white;
+}
+
+/* section2 */
+.page2, .home3{
+    background-color: black;
+    height: 100%;
+}
+.p2-content, .content{
+    padding-top: 80px;
+    text-align: center;
+}
+.p5{
+    color: #36CA94;
+    font-weight: bolder;
+}
+.p6{
+    font-size: 60px;
+    color: white;
+    font-weight: bolder;
+}
+.p7{
+    color: white;
+    font-size: 20px;
+}
+.grid-content, .home3{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+/* Section3 */
+.p9{
+    color: #ffffff;
+    font-weight: bolder;
+}
+.p9:hover{
+    color: #fff;
+}
+/* footer */
+
+.footer{
+    background-color: rgb(223, 219, 219);
+    padding-top: 80px;
+    height: 100%;
+}
+
+.footer a{
+    color: black;
+    text-decoration: none;
+}
+.footer .header-p{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.footer .move{
+    margin-top: 50px;
+}
+.line{
+    height: 2px;
+    width: 100%;
+    background-color: grey;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 375px) {
+    .home{
+        background-image: url(/images/portrait.jpg);
+        height: 100%;
+        padding-bottom: 80px;
+    }
+    .home3{
+        height: 100vh;
+    }
+    .content-btn{
+        width: 90%;
+        margin-left: 0;
+    }
+    .content-graphics{
+        margin-left: 0;
+        width: 300px;
+        height: 80px;
+    }
+    .hide{
+        display: none;
+    }
+    .p2{
+        font-size: 15px;
+    }
+    .p1{
+        font-size: 15px;
+        margin-left: 0;
+    }
+    .page2 .p6, .home3 .p6{
+        font-size: 30px;
+    }
+}
+@media (max-width: 414px) {
+    .home{
+        background-image: url(/images/portrait.jpg);
+        height: 100%;
+    }
+    .home3{
+        height: 100vh;
+    }
+    .content-btn{
+        width: 90%;
+        margin-left: 0;
+    }
+    .content-graphics{
+        margin-left: 0;
+        width: 300px;
+        height: 80px;
+    }
+    .hide{
+        display: none;
+    }
+    .p2{
+        font-size: 15px;
+    }
+    .p1{
+        font-size: 15px;
+        margin-left: 0;
+    }
+    .page2 .p6, .home3 .p6{
+        font-size: 30px;
+    }
+}
+@media (max-width: 768px) {
+    .home{
+        height: 100%;
+        padding-bottom: 80px;
+    }
+    .grid-content .moves{
+        padding-bottom: 50px;
+    }
+    .content-btn{
+        width: 90%;
+        margin-left: 0;
+    }
+    .page2{
+        padding-bottom: 80px;
+    }
+    .page2 .card{
+        height: 400px;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+    .grid-content, .home3{
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+    .content-graphics{
+        margin-left: 0;
+        width: 300px;
+        height: 80px;
+    }
+    .hide{
+        display: none;
+    }
+    .p1{
+        margin-left: 0;
+    }
+    .page2 .p6, .home3 .p6{
+        font-size: 30px;
+    }
+}
+@media (max-width: 1200px) {
+    .home{
+        height: 100%;
+        padding-bottom: 80px;
+    }
+    .content-btn{
+        width: 90%;
+        margin-left: 0;
+    }
+    .grid-content .moves{
+        padding-bottom: 50px;
+    }
+    .page2{
+        padding-bottom: 80px;
+    }
+    .page2 .card{
+        height: 400px;
+        width: 300px;
+    }
+    .content-graphics{
+        margin-left: 0;
+        width: 300px;
+        height: 80px;
+    }
+    .hide{
+        display: none;
+    }
+    .p1{
+        margin-left: 0;
+    }
+    .page2 .p6, .home3 .p6{
+        font-size: 30px;
+    }
+}
